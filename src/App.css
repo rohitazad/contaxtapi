@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+header, footer {
+  background-color: rgba(0, 0 , 0, 0.3);
+  padding:20px;
+  display: block;
+}
+
+header ul, header ul li{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+header ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+header ul li a{
+  text-decoration: underline;
+  color:#000;
+  font-size:16px;
+  padding:10px;
+display: block;
+border:solid 2px #ddd;
+background-color: #fff;
+}
